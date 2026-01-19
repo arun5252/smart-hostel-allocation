@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Hostel Room Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Hostel Room Allocation System</h1>
+
+
+<h2>Add Room</h2>
+<input type="text" id="roomNo" placeholder="Room Number">
+<input type="number" id="capacity" placeholder="Capacity">
+<label><input type="checkbox" id="ac"> AC</label>
+<label><input type="checkbox" id="washroom"> Attached Washroom</label>
+<button onclick="addRoom()">Add Room</button>
+
+<hr>
+
+
+<h2>All Rooms</h2>
+<div id="roomList"></div>
+
+<hr>
+
+<h2>Allocate Room</h2>
+<input type="number" id="students" placeholder="No of Students">
+<label><input type="checkbox" id="needAC"> Need AC</label>
+<label><input type="checkbox" id="needWashroom"> Need Washroom</label>
+<button onclick="allocateRoom()">Allocate</button>
+
+<h3 id="output"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
