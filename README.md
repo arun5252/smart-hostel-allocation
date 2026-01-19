@@ -54,6 +54,11 @@ Live URL: (https://superb-cactus-1e3406.netlify.app/)
 
 ---
 
+## GitHub Repository
+
+Repo Link: (https://arun5252.github.io/smart-hostel-allocation/)
+
+---
 
 ## Demo Video
 
